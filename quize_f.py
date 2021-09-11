@@ -18,3 +18,9 @@ def quize():
         print("incorrect") 
 
     var = input("do you want milk? ")
+    ans = "yes"
+
+    if var == ans:
+        print("correct!!! ")
+    else:
+        print("incorrect")
