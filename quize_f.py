@@ -1,25 +1,25 @@
 #abdullahi, 10, kenya
 
-def quize():
+def quiz():
 
-    va = int(input("how many planets are in the sola sestem? "))
-    an = 8
-    if va == an:
+    play = int(input("how many planets are in the sola sestem? "))
+    answer1 = 8
+    if play == answer1:
         print("correct!!!: )")
     else:
         print("incorrect") 
 
-    var = input("do you want milk? ").lower()
+    answer2 = input("do you want milk? ").lower()
     ans = "yes"
 
-    if var == ans:
+    if a == answer2:
         print("correct!!! ")
     else:
         print("incorrect")
-    variable = input("it is rainny? ").capitalize()
-    avswer = False
+    question = input("it is rainny? ").capitalize()
+    answer = False
 
-    if variable == avswer:
+    if question == answer:
         print("correct!!!")
     else:
         print("incorrect!!")
@@ -27,4 +27,4 @@ def quize():
 
 
 
-quize()
+quiz()
