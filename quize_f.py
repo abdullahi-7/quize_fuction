@@ -16,7 +16,7 @@ def quize():
         print("correct!!! ")
     else:
         print("incorrect")
-    variable = input("it is rainny? ")
+    variable = input("it is rainny? ").capitalize()
     avswer = False
 
     if variable == avswer:
